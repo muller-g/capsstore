@@ -1,0 +1,49 @@
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Book.otf);
+	font-weight: 300;
+}
+
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Bold.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Black.otf);
+	font-weight: 900;
+}
+
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Light.otf);
+	font-weight: 100;
+}
+
+@font-face {
+	font-family: Gotham;
+	src: url(../fonts/Gotham-Medium.otf);
+	font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+	font-family: Gotham, sans-serif;
+}
+
+html, body{
+	width: 100%;
+	position: relative;
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+
+:root{
+    --orange: #ff6500;
+    --black: #2b2b2b;
+}
+
