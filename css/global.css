@@ -45,5 +45,6 @@ html, body{
 :root{
     --orange: #ff6500;
     --black: #2b2b2b;
+	--hoverC: rgb(189, 101, 69);
 }
 
