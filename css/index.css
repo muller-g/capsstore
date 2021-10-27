@@ -59,6 +59,14 @@ header{
     width: 100%;
 }
 
+.nav-menu-mobile{
+    display: none;
+}
+
+.nav-menu-mobile a img{
+    width: 5vw;
+}
+
 /* section products*/
 .bg-section{
     width: 100%;
@@ -74,25 +82,25 @@ header{
 }
 
 .bg-container{
-    max-width: 40vw;
+    max-width: 50vw;
+    min-width: 10vw;
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.473);
-    padding: 4em;
+    padding: 4vw;
     border-radius: 20px;
     transform: translateX(-100px);
 }
 
-.bg-container h1{
-    font-size: 66px;
+.bg-container h2{
+    font-size: 3vw;
     font-weight: 900;
-    line-height: 0.9em;
-    position: relative;
 }
 
-.bg-container h2{
-    font-size: 3.1vw;
+.bg-container h1{
+    font-size: 4vw;
     font-weight: 900;
+    line-height: 0.9em;
 }
 
 .bg-container h1{
@@ -113,7 +121,7 @@ header{
     text-decoration: none;
     color: white;
     background-color: var(--orange);
-    padding: 0.4rem;
+    padding: 0.6vw;
     border-radius: 20px;
     text-align: center;
     align-items: center;
@@ -128,6 +136,7 @@ header{
     font-weight: 300;
     margin-top: 1vh;
     margin-bottom: 1vh;
+    text-align: justify;
 }
 
 .bg-container p a{
@@ -171,6 +180,7 @@ header{
     padding: 2rem;
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 .cap-img{
@@ -183,7 +193,7 @@ header{
 
 .cap-description{
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 200;
     padding-right: 12vw;
     transform: translateY(-100px);
@@ -199,7 +209,7 @@ header{
 
 .cap-descriptionp{
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 200;
     padding-left: 12vw;
     transform: translateY(-100px);
@@ -214,6 +224,11 @@ header{
 .video-info h1{
     font-weight: 300;
     margin-bottom: 1vh;
+}
+
+.video-info iframe{
+    width: 40vw;
+    height: 40vh;
 }
 
 /* visor & straw hat */
@@ -274,7 +289,7 @@ header{
 }
 
 .clients-container{
-    padding-top: 7vh;
+    padding-top: 2vh;
     transform: translateX(-100px);
 }
 
@@ -290,11 +305,15 @@ header{
 
 .clients-title h1{
     margin-bottom: 1vh;
+    font-size: 2.4vw;
+    padding-left: 3vw;
 }
 
 .clients-title p{
     font-weight: 100;
     margin-bottom: 3vh;
+    font-size: 1vw;
+    padding-left: 3vw;
 }
 
 /*about */
@@ -309,7 +328,7 @@ header{
 .about-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 2rem;
+    padding: 2vw;
     justify-content: center;
     text-align: center;
 }
@@ -324,7 +343,7 @@ header{
 
 .about-description{
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 200;
     padding-right: 4vw;
     transform: translateY(-100px);
@@ -336,10 +355,15 @@ header{
 
 .about-descriptionp{
     align-self: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     font-weight: 200;
     padding-left: 4vw;
     transform: translateY(-100px);
+}
+
+.about-img iframe{
+    width: 40vw;
+    height: 50vh;
 }
 
 /* contact */
@@ -404,6 +428,11 @@ header{
     display: flex;
     flex-direction: column;
     transform: translateY(-100px);
+}
+
+.social-form form{
+    display: flex;
+    flex-direction: column;
 }
 
 .social-form h1, .social-form p, .social-form input, .social-form textarea{
@@ -523,6 +552,7 @@ footer{
 footer p{
     font-weight: 100;
     margin-bottom: 2vh;
+    font-size: 1vw;
 }
 
 /* hover */
@@ -539,7 +569,7 @@ footer p{
 }
 
 .wpp img{
-    width: 70px;
+    height: 10vh;
 }
 
 /* animations */
@@ -555,6 +585,10 @@ footer p{
     animation-duration: 1s;
 }
 
+.js-scroll {
+    opacity: 0;
+    transition: opacity 500ms;
+}
 
 @keyframes from-left {
     from{
