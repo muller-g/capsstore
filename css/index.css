@@ -231,6 +231,12 @@ header{
     height: 40vh;
 }
 
+.cap-img img:hover{
+    cursor: pointer;
+    transform: scale(150%);
+    transition: 0.3s;
+}
+
 /* visor & straw hat */
 .visor-container{
     width: 100%;
@@ -255,7 +261,7 @@ header{
 }
 
 .card-img img{
-    width: 20vw;
+    width: 23vw;
 }
 
 .card-title h1{
@@ -275,6 +281,12 @@ header{
 /* hover */
 .card-description p a:hover{
     color: var(--hoverC);
+}
+
+.card-img img:hover{
+    cursor: pointer;
+    transform: scale(150%);
+    transition: 0.3s;
 }
 
 /* clients */
@@ -366,6 +378,12 @@ header{
     height: 50vh;
 }
 
+.about-img img:hover{
+    cursor: pointer;
+    transform: scale(110%);
+    transition: 0.3s;
+}
+
 /* contact */
 .contact-section{
     width: 100%;
@@ -450,7 +468,7 @@ header{
 
 .social-form input[type=submit]{
     cursor: pointer;
-    background-color: var(--orange);
+    background-color: #ff6500;
     color: white;
 }
 

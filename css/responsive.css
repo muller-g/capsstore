@@ -185,12 +185,17 @@
 @media (max-width: 775px){  
     .products{
         grid-template-columns: 1fr;
+        padding-top: 40vh;
     }
     .visor-container{
         margin-top: 20vh;
     }
     .clients-section{
-        margin-top: 20vh;
+        margin-top: 60vh;
+        padding-top: 0;
+    }
+    .card-img img{
+        width: 36vw;
     }
 }
 
