@@ -24,6 +24,9 @@
 
 /* first section */
 @media (max-width: 675px){  
+    .bg-section{
+        background-attachment: scroll;
+    }
     .btn-catalog{
         display: block;
     }
@@ -184,10 +187,10 @@
         grid-template-columns: 1fr;
     }
     .visor-container{
-        margin-top: 30vh;
+        margin-top: 20vh;
     }
     .clients-section{
-        margin-top: 30vh;
+        margin-top: 20vh;
     }
 }
 
@@ -308,6 +311,7 @@
 /* tenth */
 @media (max-width: 983px){
     .contact-container{
+        margin-top: 40vh;
         grid-template-columns: 1fr;
     }    
 }
@@ -336,7 +340,7 @@
 /* eleventh */
 @media (max-width: 983px){
     footer{
-        margin-top: 15vh;
+        margin-top: 35vh;
     }    
 
     footer p{
@@ -371,5 +375,20 @@
 @media (max-width: 457px){
     footer p{
         font-size: 3vw;
+    }
+}
+
+@media (max-width: 500px){
+    .about-section{
+        height: 60vh;
+    }
+}
+
+@media (max-width: 500px){
+    .clients-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 80vh;
     }
 }
